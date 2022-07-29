@@ -119,11 +119,6 @@ input[type="checkbox"] {
 	box-shadow: var(--business-glow);
 }
 
-input[value="personal"]{
-  border-color: var(--personal);
-	box-shadow: var(--personal-glow);
-}
-
 .pcolor {
 	border-color: var(--personal);
 	box-shadow: var(--personal-glow);
