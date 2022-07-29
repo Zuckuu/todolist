@@ -119,7 +119,12 @@ input[type="checkbox"] {
 	box-shadow: var(--business-glow);
 }
 
-.bubble.personal {
+input[value="personal"]{
+  border-color: var(--personal);
+	box-shadow: var(--personal-glow);
+}
+
+.pcolor {
 	border-color: var(--personal);
 	box-shadow: var(--personal-glow);
 }
@@ -136,7 +141,7 @@ input[type="checkbox"] {
 	transition: 0.2s ease-in-out;
 }
 
-.bubble.personal::after {
+.pcolor::after{
 	background-color: var(--personal);
 	box-shadow: var(--personal-glow);
 }
